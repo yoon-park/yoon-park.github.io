@@ -64,6 +64,15 @@
         </aside>
         {% endif %}
 
+        <!-- side toc -->
+        {% if site.side_toc %}
+        <aside class="side-toc">
+            <h2>{{ site.translations.text.side_toc | default: "" }}</h2>
+            {% include toc.html html=content sanitize=true class="inline_toc" id="my_toc" h_min=2 h_max=3
+            item_class="toc_item" %}
+        </aside>
+        {% endif %}
+
     </section>
 
     <!-- Add time bar only for pages without pagination -->
@@ -85,10 +94,6 @@
     {% include subscription.html %}
     {% include share.html %}
     <!-- {% include author.html %} -->
-    <!-- Utterances 댓글 스니핏 삽입 -->
-    <script src="https://utteranc.es/client.js" repo="yoon-park/yoon-park.github.io" issue-term="pathname"
-        theme="preferred-color-scheme" crossorigin="anonymous" async>
-        </script>
     {% include comments.html %}
     {% include footer.html %}
 

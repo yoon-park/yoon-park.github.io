@@ -263,6 +263,21 @@
 
   pre {
     overflow-x: auto;
+
+    @include center(rem(800px));
+    margin: rem(20px) auto 0;
+
+    @include media(">=sm") {
+      margin: rem(29px) auto 0;
+    }
+
+    tab-size: 2;
+
+    code {
+      font-family: 'Source Code Pro', monospace;
+      font-weight: 300;
+      font-style: normal;
+    }
   }
 
   table {
