@@ -27,6 +27,7 @@ pre {
   }
 }
 
+/*
 .gist {
   @include center(rem(800px));
   @include media("<sm") {
@@ -41,6 +42,7 @@ pre {
 pre.highlight::after{
   content: none;
 }
+*/
 
 .highlight {
   margin: rem(20px) 0;

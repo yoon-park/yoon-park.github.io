@@ -1,8 +1,7 @@
 # Site Settings
-name: ddddd
-title: Jdddddx | TIL blog
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: ACTA NON VERBA
+title: ACTA NON VERBA | TIL blog
+description: 행동으로 옮겨진 지식만이 마음에 남는다
 tags:
   - blog
   - template
@@ -45,7 +44,7 @@ medium_username:
 show_time_bar: false
 show_modal_on_exit: false
 show_modal_on_finish_post: false
-two_columns_layout: false
+two_columns_layout: true
 side_toc: true
 
 # Advanced Settings
